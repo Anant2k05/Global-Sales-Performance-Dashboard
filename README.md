@@ -1,8 +1,6 @@
-# Global-Sales-Performance-Dashboard
-Interactive Business Intelligence Dashboard built using Power BI, SQL, DAX, and Power Query to analyze 51K+ global retail transactions.
 # 🌍 Global Sales Performance Dashboard
 
-Interactive Business Intelligence dashboard built using **Power BI**, **SQL**, **DAX**, and **Power Query** to analyze **51,290 global retail transactions** and deliver actionable business insights through interactive visualizations and KPI reporting.
+An interactive **Business Intelligence Dashboard** built using **Power BI**, **SQL**, **DAX**, and **Power Query** to analyze **51,290 global retail transactions** and transform raw sales data into actionable business insights through interactive visualizations and KPI reporting.
 
 ![Dashboard Preview](images/dashboard-overview.png)
 
@@ -10,49 +8,102 @@ Interactive Business Intelligence dashboard built using **Power BI**, **SQL**, *
 
 # 📌 Project Overview
 
-The objective of this project was to transform raw retail transaction data into an interactive executive dashboard for monitoring business performance across different markets, regions, product categories, and time periods.
+This project was developed to analyze global retail sales performance and provide an executive-level view of key business metrics through an interactive Power BI dashboard.
 
-The project demonstrates an end-to-end Business Intelligence workflow, including data exploration, KPI development, data modeling, interactive dashboard design, and business insight generation.
+The solution demonstrates an end-to-end Business Intelligence workflow, including:
+
+- Data exploration using SQL
+- Data transformation using Power Query
+- KPI development using DAX
+- Interactive dashboard development
+- Business insight generation through visual analytics
 
 ---
 
-# ✨ Key Features
+# 🚀 Dashboard Features
 
-- Executive KPI Dashboard
-- Monthly Sales Trend Analysis
+### Executive KPI Cards
+
+- 📈 Total Sales
+- 💰 Total Profit
+- 📦 Total Orders
+- 📊 Profit Margin
+- 🎯 Average Discount
+
+### Interactive Visualizations
+
+- Monthly Sales Trend
 - Sales by Category
 - Sales by Market
-- Regional Profit Analysis
+- Profit by Region
 - Top 10 Products by Sales
-- Discount vs Profit Analysis
-- Interactive Year Filter
-- Interactive Category Filter
-- Cross-filtering across all visuals
+- Discount Impact on Product Profitability (Scatter Plot)
+
+### Interactive Filters
+
+- Year
+- Category
+
+### Interactive Capabilities
+
+- Cross-filtering between visuals
+- Dynamic KPI updates
+- Drillable time analysis
+- Business performance exploration by category and year
 
 ---
 
 # 📊 Dashboard KPIs
 
-- Total Sales
-- Total Profit
-- Total Orders
-- Profit Margin
-- Average Discount
+| KPI | Value |
+|------|------:|
+| Total Sales | **12.64M** |
+| Total Profit | **1.47M** |
+| Total Orders | **25,035** |
+| Profit Margin | **11.6%** |
+| Average Discount | **14.3%** |
 
 ---
 
-# 📈 Business Questions Answered
+# 📌 Key Business Insights
 
-- Which product category generates the highest sales?
-- Which markets contribute the most revenue?
-- Which regions generate the highest profit?
-- Which products drive the majority of sales?
-- How does sales performance change over time?
-- How do discounts influence product profitability?
+### 📈 Technology generated the highest sales
+
+Technology products recorded approximately **4.7M** in sales, outperforming Furniture and Office Supplies.
 
 ---
 
-# 🛠️ Tech Stack
+### 🌍 Regional profitability varied significantly
+
+The **Central** region generated the highest overall profit, highlighting strong regional performance compared to several lower-performing regions.
+
+---
+
+### 🛍 Sales are concentrated among a small group of products
+
+The Top 10 products contributed a significant share of total sales, emphasizing the impact of high-performing products on overall revenue.
+
+---
+
+### 💸 Higher discounts generally reduced profitability
+
+The scatter plot suggests a negative relationship between discount levels and product profitability for many products, indicating that aggressive discounting can reduce profit.
+
+---
+
+### 📅 Sales performance changed over time
+
+Monthly sales fluctuated throughout **2011–2014**, showing periods of growth alongside temporary declines, demonstrating the importance of continuous performance monitoring.
+
+---
+
+### 🌎 Markets contributed differently to total revenue
+
+APAC and EU generated substantially higher sales than several other markets, revealing geographical differences in business performance.
+
+---
+
+# 🛠️ Technology Stack
 
 - Power BI
 - SQL (MySQL)
@@ -77,56 +128,19 @@ The project demonstrates an end-to-end Business Intelligence workflow, including
 
 ---
 
-# 📊 Dashboard Components
-
-### KPI Cards
-
-- Total Sales
-- Total Profit
-- Total Orders
-- Profit Margin
-- Average Discount
-
-### Visualizations
-
-- Monthly Sales Trend
-- Sales by Category
-- Sales by Market
-- Profit by Region
-- Top 10 Products by Sales
-- Discount Impact on Product Profitability
-
-### Interactive Filters
-
-- Year
-- Category
-
----
-
-# 💡 Key Business Insights
-
-- Technology products generated the highest overall sales.
-- Sales performance varied significantly across different global markets.
-- Regional profitability showed noticeable differences, indicating varying business performance.
-- A small number of products contributed a significant portion of total sales.
-- Higher discount levels generally corresponded with lower product profitability.
-- Interactive filtering enables year-wise and category-wise business performance analysis.
-
----
-
-# ⚙️ Power BI Concepts Used
+# 📊 Power BI Concepts Used
 
 - Data Modeling
-- DAX Measures
 - Power Query
+- DAX Measures
 - KPI Cards
 - Interactive Slicers
 - Cross Filtering
 - Line Charts
-- Bar Charts
+- Clustered Bar Charts
 - Scatter Plot
-- Data Visualization
 - Dashboard Design
+- Business Visualization
 
 ---
 
@@ -140,12 +154,12 @@ The SQL analysis included:
 - Sales Analysis
 - Profit Analysis
 - Category-wise Performance
-- Market-wise Performance
 - Region-wise Performance
+- Market-wise Performance
 - Product Performance
 - Discount Analysis
-- Top Performing Products
 - KPI Calculations
+- Top Performing Products
 
 SQL queries are available in:
 
@@ -172,11 +186,11 @@ Global-Sales-Performance-Dashboard/
 
 ---
 
-# 🚀 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
 - Business Intelligence
 - Data Analysis
-- Dashboard Design
+- Dashboard Development
 - Data Visualization
 - SQL
 - DAX
@@ -184,9 +198,12 @@ Global-Sales-Performance-Dashboard/
 - KPI Development
 - Exploratory Data Analysis (EDA)
 - Business Analytics
+- Data Modeling
 
 ---
 
 # 📬 Feedback
 
-Suggestions and feedback are always welcome. Feel free to open an issue or connect to discuss improvements.
+Suggestions and feedback are always welcome.
+
+If you have recommendations or ideas for improving this project, feel free to open an issue or connect with me.
